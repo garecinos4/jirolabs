@@ -17,34 +17,34 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-
-  <ul class="right hide-on-med-and-down">
-    <li ><a  href="about.html">About us</a></li>
-  </ul>
 </head>
 <body>
   <nav class="white" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">
-      <img src="images/logo.png" alt="jiro labs" width="40%"> 
-    </a>
-      <!--ul class="right hide-on-med-and-down">
-        <li ><a  href="tel:50254163824">Contact us: 24/7 +502 5416-3824</a></li>
-      </ul--> 
-      
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">
+        <img src="images/logo.png" alt="jiro labs" width="40%"> 
+      </a>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="tel:50254163824" > <i class="material-icons">phone</i> Contact us: +502 5416-3824</a></li>
+      <ul id="nav-mobile" class="right hide-on-med-and-down green">
+        <li><a href="about.html">About Us</a></li>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
+
+  <!-- <a href="#" data-target="mobile-demo" class="sidenav-trigger hide-on-lg-and-down"><i class="material-icons">menu</i></a>
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="about.html">About Us</a></li>
+
+    <li><a href="tel:50254163824" > <i class="material-icons">phone</i> Contact us: +502 5416-3824</a></li>
+  </ul> -->
+
+  
+
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
-      <br><br>
-      
-      <!--h1 class="header center orange-text">Building with passion</h1-->
+        <!--h1 class="header center orange-text">Building with passion</h1-->
       <div class="row center">
-          <img src="images/jiro.png" alt="jiro pet" width="10%">
+          <img src="images/jiro.png" alt="jiro pet" class="responsive-img">
         <h5 class="header col s12 light">Talk with us!</h5>
       </div>
       <div class="row center">
@@ -137,11 +137,12 @@
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
   <script src="js/init.js"></script>
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107252177-1"></script>
 <script>
+
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments)};
   gtag('js', new Date());
